@@ -27,6 +27,8 @@ submit a feature request (see FAQ).
 +---------------------------------------+---------------------+----------------------+
 | Daikin                                | ``daikin``          | yes                  |
 +---------------------------------------+---------------------+----------------------+
+| :ref:`Delonghi<delonghi_ir>`          | ``delonghi``        | yes                  |
++---------------------------------------+---------------------+----------------------+
 | Fujitsu General                       | ``fujitsu_general`` | yes                  |
 +---------------------------------------+---------------------+----------------------+
 | Hitachi                               | ``hitachi_ac344``   | yes                  |
@@ -150,6 +152,14 @@ IR receiver.
       - platform: coolix
         name: "Living Room AC"
         receiver_id: rcvr
+
+.. _delonghi_ir:
+
+``delonghi`` Climate
+-------------------------
+
+Currently supports the protocol used by some delonghi portable units, including (and known worting for) PAC WE 120HP.
+For different models, results may vary. Please raise an issue if your model is not supported by this protocol, and an option to select the model may be added (similar to :ref:`Toshiba<toshiba>`).
 
 .. _midea_ir:
 
