@@ -82,9 +82,7 @@ Configuration variables:
 
 .. note::
 
-    To speed up the display update process you can select higher I²C frequencies.
-
-.. _ssd1306-spi:
+    To speed up the display update process you can select higher I²C frequencies. ESP8266 devices may fail to connect to wifi if the display update process takes too long - it is recommended to change I2C **frequency** to ``800kHz``, or otherwise change the display **update_interval** to ``2s`` or larger.
 
 Over SPI
 --------
